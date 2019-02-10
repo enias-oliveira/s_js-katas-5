@@ -17,7 +17,7 @@ For today's katas, you will implement several functions. You should write at lea
 7. Write a function named countValues that returns the values from a list and their counts (i.e. the list above becomes "1(3) 3(3) 5(2) 7(1)"). Then write two unit test functions named testCountValues1 and testCountValues2.
 8. Write a function named evaluateExpression that, given a string of expressions (only variables, +, and -) and an object describing a set of variable/value pairs like {a: 1, b: 7, c: 3, d: 14}, returns the result of the expression ("a + b + c - d" would be -3). Then write two unit test functions named testEvaluateExpression1 and testEvaluateExpression2.
 
-As an example, a unit test for the 8th kata might look like:
+For example, a unit test for the 8th kata might look like:
 
 ```
 function testEvaluateExpression1() {
