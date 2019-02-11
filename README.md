@@ -32,7 +32,7 @@ For this assessment, you will have access to testing tools as you work.  To test
 
 1. Your solutions file should be named `katas5.js` and it should live in a directory/folder called `katas5`.  When writing your function for each kata, name each one according to the instructions.  **It is important to follow these naming instructions, or the testing tools will not work, and you will not receive points.**
 2. If you already have node/npm installed, skip this step.  From your terminal, run the command `brew install node`. Verify the install completed by running `node --version` (You should see something like `v8.12.0` or similar), then `npm --version` (You should see something like `6.4.1` or similar)
-3. If you already have the kenzie testing npm package installed, skip this step.  Again from your terminal, run the command `npm install --global git+https://github.com/jragard/kenzie-testing`
+3. If you already have the kenzie testing npm package installed, skip this step.  Again from your terminal, run the command `sudo npm install --global git+https://github.com/jragard/kenzie-testing`
 4. You can test the functions in your katas5.js file by navigating to the katas5 directory that holds your file.  When you are in the same directory as your `katas5.js` file, run the terminal command `kenzie-test katas5`.  You will receive instant feedback in your terminal.  You can run these tests repeatedly as you complete katas to verify that your solutions are correct.
 
 # For Graders #
