@@ -35,17 +35,9 @@ For this assessment, you will have access to testing tools as you work.  To test
 3. If you already have the kenzie testing npm package installed, skip this step.  Again from your terminal, run the command `sudo npm install --global git+https://github.com/jragard/kenzie-testing`
 4. You can test the functions in your katas5.js file by navigating to the katas5 directory that holds your file.  When you are in the same directory as your `katas5.js` file, run the terminal command `kenzie-test katas5`.  You will receive instant feedback in your terminal.  You can run these tests repeatedly as you complete katas to verify that your solutions are correct.
 
-# For Graders #
+### Submission ###
 
-For this assessment, students will submit their Gitlab Project ID #.  To grade:
-
-1.  If you haven't already, run `npm install --global git+https://github.com/jragard/kenzie-testing` to install the testing package.
-2.  Run `kenzie-test katas5 -g <Project ID>`  The results will be displayed in your terminal.
-
-## Submission ##
-
-Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. You will submit your Gitlab Project ID # in Canvas, located right below your project name. (See Below) You can copy/paste it.  As always, your Gitlab project must be shared with the KA_SE5 account with "Reporter" as role permission.
-
+Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Canvas, please add KA_SE5 as a member on your project with "Reporter" permission, and submit your gitlab pages url, **with your Project ID number included as a comment on your submission**.  Your Project ID number is located directly under your project name (see below).
 
 ![](project_id.png)
 
