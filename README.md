@@ -42,7 +42,5 @@ For this assessment, you will have access to testing tools as you work.  To test
 
 ### Submission ###
 
-Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Canvas, please add KA_SE5 as a member on your project with "Reporter" permission, and **submit your gitlab pages url AND your Project ID number**.  Your Project ID number is located directly under your project name (see below).
-
-![](project_id.png)
+Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Canvas, please add KA_SE5 as a member on your project with "Reporter" permission, and **submit both your gitlab pages url (Ex: https://username.gitlab.io/katas5) AND your gitlab repository url (Ex: https://gitlab.com/username/katas5).  You can submit your repo url as a comment on your main submission in Canvas**.
 
