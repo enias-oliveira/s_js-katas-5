@@ -6,6 +6,8 @@ Remember when we talked about unit tests?  Review [Lesson: Unit Testing](https:/
 
 For today's katas, you will implement several functions. You should write at least two unit tests for each function demonstrating their behavior. All your output can be via console.assert(); you don't need to do any HTML formatting for any of these katas.
 
+*Please name your repository 'katas5', your Javascript file 'katas4.js' and follow the function naming instructions below.  This will allow the grading testsuite for this assignment to discover your functions*
+
 ## Katas
 
 1. Write a function named reverseString that reverses a string. Then write two unit test functions named testReverseString1 and testReverseString2.
