@@ -6,7 +6,7 @@ Remember when we talked about unit tests?  Review [Lesson: Unit Testing](https:/
 
 For today's katas, you will implement several functions. You should write at least two unit tests for each function demonstrating their behavior. All your output can be via console.assert(); you don't need to do any HTML formatting for any of these katas.
 
-*Please name your repository 'katas5', your Javascript file 'katas4.js' and follow the function naming instructions below.  This will allow the grading testsuite for this assignment to discover your functions*
+*Please name your repository 'katas5', your Javascript file 'katas5.js' and follow the function naming instructions below.  This will allow the grading testsuite for this assignment to discover your functions*
 
 ## Katas
 
