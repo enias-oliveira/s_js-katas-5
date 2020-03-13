@@ -1,35 +1,33 @@
-# Assessment - JavaScript Katas 5
+# Avaliação - Katas de JavaScript 5
 
-# Overview
+# Visão Geral
 
-Remember when we talked about unit tests?  Review [Lesson: Unit Testing](https://my.kenzie.academy/courses/20/assignments/1633) if you need a refresher.
+Lembra de quando falamos sobre testes unitários? Revise a Aula: Teste Unitário se precisar refrescar a memória.
 
-For today's katas, you will implement several functions. You should write at least two unit tests for each function demonstrating their behavior. All your output can be via console.assert(); you don't need to do any HTML formatting for any of these katas.
+Para os katas de hoje, você irá implementar várias funções. Você deve escrever ao menos dois testes unitários para cada função demonstrando seu comportamento. Todo o output pode ser dado via console.assert(); você não precisa de qualquer formatação HTML para esses katas. Estas funções devem passar nos testes unitários que forem escritos.
 
-*Please name your repository 'katas5', your Javascript file 'katas5.js' and follow the function naming instructions below.  This will allow the grading testsuite for this assignment to discover your functions*
+*Por favor, nomeie seu repositório como 'katas5', seu arquivo Javascript como 'katas5.js' e siga as instruções de nomeação de função descritas abaixo. Isso irá permitir que os avaliadores encontrem suas funções.*
 
 ## Katas
 
-1. Write a function named reverseString that reverses a string. Then write two unit test functions named testReverseString1 and testReverseString2.
-2. Write a function named reverseSentence that reverses a sentence. Then write two unit test functions named testReverseSentence1 and testReverseSentence2.
-3. Write a function named minimumValue that finds the minimum value in an array. Then write two unit test functions named testMinimumValue1 and testMinimumValue2.
-4. Write a function named maximumValue that finds the maximum value in an array. Then write two unit test functions named testMaximumValue1 and testMaximumValue2.
-5. Write a function named calculateRemainder that calculates a remainder (given a numerator and a denominator). Then write two unit test functions named testCalculateRemainder1 and testCalculateRemainder2.
-6. Write a function named distinctValues that returns distinct values from a list including duplicates (i.e. "1 3 5 3 7 3 1 1 5" -> "1 3 5 7"). Then write two unit test functions named testDistinctValues1 and testDistinctValues2.
-7. Write a function named countValues that returns the values from a list and their counts (i.e. the list above becomes "1(3) 3(3) 5(2) 7(1)"). Then write two unit test functions named testCountValues1 and testCountValues2.
-8. Write a function named evaluateExpression that, given a string of expressions (only variables, +, and -) and an object describing a set of variable/value pairs like {a: 1, b: 7, c: 3, d: 14}, returns the result of the expression ("a + b + c - d" would be -3). Then write two unit test functions named testEvaluateExpression1 and testEvaluateExpression2.
+1. Escreva uma função chamada reverseString que inverte uma string. Em seguida, escreva duas funções de teste unitário chamadas testReverseString1 e testReverseString2.
+1. Escreva uma função chamada reverseSentence que inverte uma frase. Em seguida, escreva duas funções de teste unitário chamadas testReverseSentence1 e testReverseSentence2.
+1. Escreva uma função chamada minimumValue que encontra o valor mínimo de um array. Em seguida, escreva duas funções de teste unitário chamadas testMinimumValue1 e testMinimumValue2.
+1. Escreva uma função chamada maximumValue que encontra o valor máximo de um array. Em seguida, escreva duas funções de teste unitário chamadas testMaximumValue1 e testMaximumValue2.
+1. Escreva uma função chamada calculateRemainder que calcula o resto (de uma determinada divisão). Em seguida, escreva duas funções de teste unitário chamadas testCalculateRemainder1 e testCalculateRemainder2.
+1. Escreva uma função chamada distinctValues que retorna valores distintos de uma lista incluindo duplicatas (ou seja, "1 3 5 3 7 3 1 1 5" -> "1 3 5 7"). Em seguida, escreva duas funções de teste unitário chamadas testDistinctValues1 e testDistinctValues2.
+1. Escreva uma função chamada countValues que retorna os valores de uma lista e suas ocorrências (ou seja, a lista acima se torna "1(3) 3(3) 5(2) 7(1)"). Em seguida, escreva duas funções de teste unitário chamadas testCountValues1 e testCountValues2.
+1. Escreva uma função chamada evaluateExpression que, dado uma string de expressões (apenas variáveis, +, e -) e um objeto descrevendo um conjunto de pares de variáveis/valores como {a: 1, b: 7, c: 3, d: 14}, retorna o resultado da expressão ("a + b + c - d" seria -3). Em seguida, escreva duas funções de teste unitário chamadas testEvaluateExpression1 e testEvaluateExpression2.
 
-For example, a unit test for the 8th kata might look like:
+Por exemplo, um teste unitário para o 8º kata poderia se parecer com isso:
 
-```
+```js
 function testEvaluateExpression1() {
-    let result = evaluateExpression("a + b + c - d", {a: 1, b: 7, c: 3, d: 14});
-    console.assert(result === -3)
+   let result = evaluateExpression("a + b + c - d", {a: 1, b: 7, c: 3, d: 14});
+   console.assert(result === -3)
 }
 ```
 
+### Envio
 
-### Submission ###
-
-Push your code into your GitLab repository and use the GitLab Pages feature to allow your site to be viewed directly. In Gitlab, please add KA_Grading as a member on your project with "Reporter" permission, and **submit your gitlab pages url (Ex: https://username.gitlab.io/katas5)**.
-
+Faça o push do código para seu repositório no GitLab e use a função do GitLab Pages que permite que o site seja visualizado diretamente. No Gitlab, por favor, adicione ka-br-correcoes como membro do seu projeto com a permissão "Reporter", e **envie a url do seu gitlab pages (Ex: https://nomedeusuário.gitlab.io/katas5)**.
